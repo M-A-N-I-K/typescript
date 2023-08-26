@@ -1,8 +1,14 @@
 "use strict";
-let username = 'Manik Dingra';
-console.log(username);
-let a = 12;
-let b = 6;
-let c = 2;
-console.log(a / b);
-console.log(c * b);
+let myName;
+let meaningOfLife;
+let isLoading;
+let album; // Union type
+myName = 'Manik';
+meaningOfLife = 20;
+isLoading = true;
+album = "Any type";
+// Functions : 
+const sum = (a, b) => {
+    return a + b;
+};
+console.log(sum(meaningOfLife, myName));
