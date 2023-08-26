@@ -11,4 +11,6 @@ album = "Any type";
 const sum = (a, b) => {
     return a + b;
 };
-console.log(sum(meaningOfLife, myName));
+let postId;
+let isActive;
+let re = /w\+/g;
