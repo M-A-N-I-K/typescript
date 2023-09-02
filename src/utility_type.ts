@@ -1,7 +1,6 @@
 // Utility Types
 
-// Partial 
-
+// Partial :
 interface Assignment{
     studentId : string,
     title : string,
