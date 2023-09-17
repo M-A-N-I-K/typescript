@@ -19,6 +19,7 @@ button,
 select {
 	font: inherit;
 	padding: 0.25em;
+	cursor: pointer;
 }
 
 img {
